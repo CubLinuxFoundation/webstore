@@ -1,0 +1,85 @@
+body {
+    background: #efece9;
+}
+
+#header {
+	background-color: #1c6b82;!important;
+	width: 100%;
+	min-height: 55px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: black;
+	border-bottom-width: 1;
+	border-bottom-style: outset;
+	z-index: 5000;
+}
+
+#header .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #555;
+    text-decoration: none;
+}
+
+#header table li {
+    float: left;
+}
+
+#header table li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#header table li a:hover {
+    background-color: #1c6b82;
+}
+
+#header table {
+    margin-top: 5px;
+}
+
+#header table tr {
+    color: white;
+}
+
+#header .webStoreCol {
+    padding-top: 8px;
+}
+
+#header .webStoreCubTxt {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+#header .webStoreTxt {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#header tbody tr td ul {
+    font-size: 15px;
+}
+
+#header tbody tr .searchApp {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+#header tbody tr .searchApp #search {
+    background-image: url('active-search-xxl.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 10px;
+}

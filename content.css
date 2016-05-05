@@ -1,0 +1,96 @@
+#contentTable {
+    width: 95%;
+    margin-top: 90px;
+    margin-left: 55px;
+}
+
+#contentTable .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #555;
+    text-decoration: none;
+}
+
+#contentTable li {
+    float: left;
+    width: 100%;
+}
+
+#contentTable li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#contentTable li a:hover {
+    background-color: #1c6b82;
+}
+
+#contentTable tbody tr td {
+	vertical-align: top;
+}
+
+#contentTable tbody tr .leftTd .leftTdContent {
+	background-color: #1c6b82;
+}
+
+#contentTable tbody tr .leftTd .leftTdContent .list-group {
+	padding-left: 28px;
+    	width: 200px;
+    	padding-bottom: 50px;
+}
+
+#contentTable tbody tr .leftTd .leftTdContent .list-group .firstItem {
+	border-top-left-radius: 4px;
+    	border-top-right-radius: 4px;
+}
+
+#contentTable tbody tr .leftTd .leftTdContent .list-group .lastItem {
+	border-bottom-left-radius: 4px;
+    	border-bottom-right-radius: 4px;
+}
+
+#contentTable tbody tr .rightTd {
+	color: black;
+}
+
+#contentTable tbody tr .rightTd .appText {
+    	font-size: 40px;
+    	font-weight: bold;
+    	padding-left: 35px;
+}
+
+#contentTable tbody tr .rightTd .apps-container {
+	clear: both;
+    	padding-left: 20px;
+    	padding-top: 15px;
+}
+
+#contentTable tbody tr .rightTd .apps-container .app {
+	float: left;
+    	padding: 20px;
+}
+
+#contentTable tbody tr .rightTd .apps-container .app div {
+	background-color: white;
+	text-align: center;
+}
+
+#contentTable tbody tr .rightTd .apps-container .app div img {
+	width: 180;
+}
+
+#contentTable tbody tr .rightTd .apps-container .app div .actions {
+	height: 40;
+}
+
+#contentTable tbody tr .rightTd .apps-container .appInfos .appActions {
+	float: left;
+    	padding: 20px;
+}

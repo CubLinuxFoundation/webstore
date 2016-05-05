@@ -1,0 +1,135 @@
+<html><head>
+
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="footer.css">
+    
+<script>
+
+window.onload = init;
+
+function init(){
+	
+	document.getElementById('search').addEventListener('keypress', function(e){
+		
+		if(e.keyCode==13){
+			var val = document.getElementById('search').value;
+			window.open('https://chrome.google.com/webstore/search/'+val, '_blank');
+		}
+	});
+};
+</script>
+</head>
+<body>
+
+<div id="header">
+  <table>
+    <tbody>
+      <tr>
+	      <td nowrap="" class="webStoreCol">
+	        <span class="webStoreCubTxt">Cub</span>
+	      	<span class="webStoreTxt">Web Store</span>
+	      </td>
+	      <td nowrap="">
+		<ul>
+	  	   <li><a class="active" href="apt://kolourpaint4">Home</a></li>
+	  	   <li><a href="#news">How To</a></li>
+	        </ul>
+	      </td>
+	      <td class="searchApp">
+	     	<label>Search App</label>
+	    	<input type="text" id="search">
+      	      </td>
+       </tr>
+    </tbody>
+  </table>	
+</div>
+
+<table id="contentTable">
+  <tbody><tr>
+    <td class="leftTd">
+  	<div class="leftTdContent">
+      		<img src="assets/img/CubLinux.svg">
+		<div class="list-group">
+		    <a href="office/" class="list-group-item firstItem">Office</a>
+                    <a href="#" class="list-group-item">Video</a>
+                    <a href="#" class="list-group-item">Music</a>
+                    <a href="#" class="list-group-item">Photo</a>
+                    <a href="#" class="list-group-item">Internet</a>
+                    <a href="#" class="list-group-item">System</a>
+                    <a href="#" class="list-group-item">Games</a>
+                    <a href="#" class="list-group-item lastItem">Accessories</a>
+        	</div>
+	</div>
+    </td>
+    <td class="rightTd">
+	<div class="appText">Office Software</div>
+  	<div class="apps-container">
+		<div class="app">
+		  <div>
+                    <img src="./assets/img/apps/wps.png">
+                    <div>
+                  	<h3>WPS Office</h3>
+                  	<p>Linux</p>
+                  	<div class="actions">
+                    		<button type="button">Install</button>
+                        </div>
+                    </div>
+  	          </div>
+                </div>
+		
+		<div class="app">
+		  <div>
+                    <img src="./assets/img/apps/google-drive-logo.png">
+                    <div>
+                  	<h3>WPS Office</h3>
+                  	<p>Linux</p>
+                  	<div class="actions">
+                    		<button type="button">Install</button>
+                        </div>
+                    </div>
+  	          </div>
+                </div>
+
+		<div class="app">
+		  <div>
+                    <img src="./assets/img/apps/microsoft-one-drive-cloud-storage-logo.png">
+                    <div>
+                  	<h3>WPS Office</h3>
+                  	<p>Linux</p>
+                  	<div class="actions">
+                    		<button type="button">Install</button>
+                        </div>
+                    </div>
+  	          </div>
+                </div>
+
+		<div class="app">
+		  <div>
+                    <img src="./assets/img/apps/wps.png">
+                    <div>
+                  	<h3>WPS Office</h3>
+                  	<p>Linux</p>
+                  	<div class="actions">
+                    		<button type="button">Install</button>
+                        </div>
+                    </div>
+  	          </div>
+                </div>
+
+		<div class="app">
+		  <div>
+                    <img src="./assets/img/apps/libreoffice-logo.png">
+                    <div>
+                  	<h3>WPS Office</h3>
+                  	<p>Linux</p>
+                  	<div class="actions">
+                    		<button type="button">Install</button>
+                        </div>
+                    </div>
+  	          </div>
+                </div>  
+</div></td></tr></tbody></table>
+<div class="footer">
+</div>
+</body></html>
