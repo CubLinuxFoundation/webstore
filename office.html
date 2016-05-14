@@ -1,24 +1,10 @@
-<html><head>
+<html>
+<head>
 
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="content.css">
     <link rel="stylesheet" href="footer.css">
-    
-<script>
 
-window.onload = init;
-
-function init(){
-	
-	document.getElementById('search').addEventListener('keypress', function(e){
-		
-		if(e.keyCode==13){
-			var val = document.getElementById('search').value;
-			window.open('https://chrome.google.com/webstore/search/'+val, '_blank');
-		}
-	});
-};
-</script>
 </head>
 <body>
 
@@ -70,10 +56,11 @@ function init(){
 		  <div>
                     <img src="./assets/img/office/wps.png">
                     <div>
-                  	<h3>WPS Office</h3>
-                  	<p>Bringing The World’s Best Office Experience To Linux. Compatible With Microsoft Office Supports PPT, DOC, DOCX, XLS And XLSX Save Documents As A PDF</p>
+                  	<h2>WPS Office</h2>
+			<h4>Linux</h4>
                   	<div class="actions">
                     		<button type="button">Install</button>
+				<button id="wpsOfficeBtn">More Info</button>
                         </div>
                     </div>
   	          </div>
@@ -83,19 +70,21 @@ function init(){
 		  <div>
                     <img src="./assets/img/office/libre.png">
                     <div>
-                  	<h3>Libre Office</h3>
-                  	<p>LibreOffice includes several applications that make it the most powerful Free and Open Source office suite on the market: Writer (word processing), Calc (spreadsheets), Impress (presentations), Draw (vector graphics and flowcharts), Base (databases), and Math (formula editing)</p>
+                  	<h2>Libre Office</h2>
+			<h4>Linux</h4>
                   	<div class="actions">
                     		<button type="button">Install</button>
+				<button id="libreOfficeBtn">More Info</button>
                         </div>
                     </div>
   	          </div>
                 </div>
-<div class="app">
+	<div class="app">
 		  <div>
                     <img src="./assets/img/office/docs.jpg">
                     <div>
-                  	<h3>Google Docs</h3>
+                  	<h2>Google Docs</h2>
+			<h4>Google App</h4>
                   	<p>With Google Docs, you can write, edit, and collaborate wherever you are. Access, create, and edit your documents wherever you go from your phone, tablet, or computer.. even when there's no connection.</p>
                   	<div class="actions">
                     		<button type="button">Install</button>
@@ -104,12 +93,12 @@ function init(){
   	          </div>
                 </div>
 		
-<div class="app">
+	<div class="app">
 		  <div>
                     <img src="./assets/img/office/office-online.png">
                     <div>
-                  	<h3>Microsoft Office 365</h3>
-                  	<p>Get the latest versions of Word, Excel, PowerPoint, OneNote, Outlook, and more, downloaded directly to your favorite devices. You can keep working even if you’re not online.</p>
+                  	<h2>MS Office 365</h2>
+                  	<h4>Google App</h4>
                   	<div class="actions">
                     		<button type="button">Install</button>
                         </div>
@@ -122,4 +111,6 @@ function init(){
 </div></td></tr></tbody></table>
 <div class="footer">
 </div>
-</body></html>
+</body>
+<script src="js/links.js"></script>
+</html>

@@ -7,7 +7,7 @@
 #contentTable .list-group-item {
     position: relative;
     display: block;
-    padding: 10px 15px;
+    padding: 8px 15px;
     margin-bottom: -1px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -24,7 +24,6 @@
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -34,6 +33,10 @@
 
 #contentTable tbody tr td {
 	vertical-align: top;
+}
+
+#contentTable tbody tr .leftTd {
+	width: 190px;
 }
 
 #contentTable tbody tr .leftTd .leftTdContent {
@@ -70,6 +73,7 @@
 	clear: both;
     	padding-left: 20px;
     	padding-top: 15px;
+	min-height: 1000;
 }
 
 #contentTable tbody tr .rightTd .apps-container .app {
@@ -80,10 +84,17 @@
 #contentTable tbody tr .rightTd .apps-container .app div {
 	background-color: white;
 	text-align: center;
+	width: 200px;
 }
 
 #contentTable tbody tr .rightTd .apps-container .app div img {
-	width: 180;
+	width: 160px;
+    	height: 160px;
+	margin-top: 10px;
+}
+
+p {
+	display: none;
 }
 
 #contentTable tbody tr .rightTd .apps-container .app div .actions {

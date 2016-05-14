@@ -4,21 +4,6 @@
     <link rel="stylesheet" href="content.css">
     <link rel="stylesheet" href="footer.css">
     
-<script>
-
-window.onload = init;
-
-function init(){
-	
-	document.getElementById('search').addEventListener('keypress', function(e){
-		
-		if(e.keyCode==13){
-			var val = document.getElementById('search').value;
-			window.open('https://chrome.google.com/webstore/search/'+val, '_blank');
-		}
-	});
-};
-</script>
 </head>
 <body>
 
@@ -91,7 +76,7 @@ function init(){
                     </div>
   	          </div>
                 </div>
-<div class="app">
+		<div class="app">
 		  <div>
                     <img src="./assets/img/music/spotify.png">
                     <div>
@@ -104,7 +89,7 @@ function init(){
   	          </div>
                 </div>
 		
-<div class="app">
+		<div class="app">
 		  <div>
                     <img src="./assets/img/music/rhythmbox.png">
                     <div>
@@ -122,4 +107,5 @@ function init(){
 </div></td></tr></tbody></table>
 <div class="footer">
 </div>
+<script src="js/links.js"></script>
 </body></html>
