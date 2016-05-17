@@ -78,23 +78,19 @@
 
 #contentTable tbody tr .rightTd .apps-container .app {
 	float: left;
-    	padding: 20px;
+    	padding: 10px;
 }
 
 #contentTable tbody tr .rightTd .apps-container .app div {
 	background-color: white;
 	text-align: center;
-	width: 200px;
+	width: 220px;
 }
 
 #contentTable tbody tr .rightTd .apps-container .app div img {
 	width: 160px;
     	height: 160px;
 	margin-top: 10px;
-}
-
-p {
-	display: none;
 }
 
 #contentTable tbody tr .rightTd .apps-container .app div .actions {
